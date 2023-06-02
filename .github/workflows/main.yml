@@ -26,4 +26,4 @@ jobs:
           python-version: "3.8.10"
 
       - name: Run tests
-        run: python -m unittest
+        run: python -m unittest testCalculator.py
